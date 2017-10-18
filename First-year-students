@@ -30,8 +30,8 @@ public class Solution {
                 }}
 
                     }
-
     }
+    
     public static class Student{
         public  String course( String course){
              course = "курс";
@@ -39,12 +39,9 @@ public class Solution {
 
        public int year =0;
 
-
     }
 
     public static class Student1  extends Student{
-
-
 
         public  String course(){
             System.out.println(name+" - "+(super.year+1)+" "+super.course("1 курс"));
@@ -55,9 +52,8 @@ public class Solution {
         private static String name = "Wasyl";
         private  static int age = 22;
         private  static int mark = 5;
-
-
     }
+    
     public static class Student2 extends Student{
         public  String course(){
             System.out.println(name+" - "+(super.year+1)+" "+super.course("1 курс"));
@@ -67,10 +63,8 @@ public class Solution {
         private  static int age = 19;
         private  static int mark = 4;
         private   static  boolean presence = true;
-
-
-
     }
+    
     public static class Student3 extends Student{
         public  String course(){
                System.out.println(name+" - "+(super.year+1)+" "+super.course("1 курс"));
@@ -80,9 +74,8 @@ public class Solution {
       private   static int age = 21;
         private  static int mark = 3;
         private static boolean presence = false;
-
-
     }
+    
     public static class Proffesor {
         public void checkPresence( ) {
             int count=0;
